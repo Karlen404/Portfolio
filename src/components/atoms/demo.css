@@ -1,0 +1,14 @@
+
+.snake-line {
+  transform: translateX(-100%);
+  animation: snakeAnimation 1s linear infinite;
+}
+
+@keyframes snakeAnimation {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
