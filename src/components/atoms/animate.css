@@ -12,3 +12,12 @@
     transform: translateX(120%);
   }
 }
+
+@keyframes slideRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -7,7 +7,7 @@ function About() {
       <Title title="About" />
       <div className="gap-8 flex flex-col md:flex-row">
         <div className="h-60 top-28 rounded-2xl overflow-hidden md:w-1/2 md:sticky md:h-auto">
-          <img src="https://i.pinimg.com/236x/6f/24/5a/6f245a707c74b269e69a9c831340db1b.jpg" height="800" width="600" alt="" className="object-cover object-center  md:aspect-auto" />
+          <img src="https://i.pinimg.com/736x/46/99/fe/4699fe01520a809ca2fef5a695ff8be0.jpg" height="800" width="600" alt="" className="object-cover object-center  md:aspect-auto" />
         </div>
         <div className="md:w-1/2 md:sticky">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa natus facere doloremque quasi unde ipsam enim, dolor adipisci voluptatibus. Voluptates veniam aliquid culpa quia ullam itaque id? Aliquam, voluptatibus magni.

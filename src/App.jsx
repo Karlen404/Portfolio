@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <div className="flex flex-col mx-auto h-full bg-bgLight text-paragraph dark:bg-bgDark dark:text-bgLight">
-          <Navbar />
-        <div className="flex-1 mx-6 lg:mx-44 md:mx-12">
-          <ScrollIndicator/>
+        <Navbar />
+        <div className="flex-1 mx-6 md:mx-12 lg:mx-44">
+          <ScrollIndicator />
           <ScrollTop />
           <Home />
           <About />
@@ -23,7 +23,7 @@ function App() {
           <Projects />
           <Contact />
         </div>
-          <Footer/>
+        <Footer />
       </div>
     </>
   )
