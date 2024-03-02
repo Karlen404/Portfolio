@@ -25,17 +25,22 @@ function Home() {
       <div className="md:hidden">
         <div className="flex items-center">
           <div className="grid gap-4">
-            <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+            {/* <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+              <a href="" target="blank" rel="noopener noreferrer">
+                <BsLinkedin />
+              </a>
+            </div> */}
+            <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
               <a href="https://github.com/Karlen404" target="blank" rel="noopener noreferrer">
                 <BsGithub />
               </a>
             </div>
-            <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+            <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
               <a href="" target="blank" rel="noopener noreferrer">
                 <BsLinkedin />
               </a>
             </div>
-            <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+            <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
               <a href="" target="blank" rel="noopener noreferrer">
                 <BsInstagram />
               </a>
@@ -53,7 +58,7 @@ function Home() {
           <h3 className="text-3xl font-semibold mt-2">FrontEnd Developer</h3>
           <p className="mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sed labore ad fugiat possimus animi et sint, deserunt unde optio dolores blanditiis eum quae!</p>
           <div className="mt-3">
-            <ButtonFill title="Lets talk" bg="bg-primary" text="text-bgLight" />
+            <ButtonFill title="Let's talk" bg="bg-primary" text="text-bgLight" />
           </div>
         </div>
       </div>
@@ -62,17 +67,17 @@ function Home() {
         <div className="flex justify-between">
           <div className="flex items-center">
             <div className="grid gap-4 md:mr-10 lg:mr-16">
-              <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+              <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
                 <a href="https://github.com/Karlen404" target="blank" rel="noopener noreferrer">
                   <BsGithub />
                 </a>
               </div>
-              <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+              <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
                 <a href="" target="blank" rel="noopener noreferrer">
                   <BsLinkedin />
                 </a>
               </div>
-              <div className="bg-primary text-bgLight text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
+              <div className="bg-transparent text-primary border border-primary text-xl rounded-full h-10 w-10 flex justify-center items-center cursor-pointer hover:bg-primary hover:border-primary hover:text-bgLight dark:hover:border-primary dark:border-bgLight dark:text-bgLight transition duration-500 ease-in-out">
                 <a href="" target="blank" rel="noopener noreferrer">
                   <BsInstagram />
                 </a>
@@ -86,7 +91,7 @@ function Home() {
                 <p className="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque harum minus nulla, praesentium modi consectetur tempore voluptatum</p>
               </div>
               <div className="mt-6" onClick={() => scrollToSection('contact')}>
-                <ButtonFill title="Let's talk" bg="bg-primary"/>
+                <ButtonFill title="Let's talk" bg="bg-primary" />
               </div>
             </div>
           </div>

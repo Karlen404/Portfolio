@@ -23,7 +23,7 @@ function ScrollTop() {
 
   return (
     <LinkScroll activeClass='active' to='home' spy={true} smooth={true} offset={0} duration={500}>
-      <div className={`${isVisible ? 'opacity-100' : 'opacity-0'} fixed text-xl bottom-6 right-6 md:right-12 lg:right-44 border  bg-primary text-white p-2 rounded-xl transition duration-500 ease-in-out cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:hover:text-bgLight `}>
+      <div className={`${isVisible ? 'opacity-100' : 'opacity-0'} fixed text-xl bottom-6 right-6 md:right-12 lg:right-44 border  bg-primary text-white p-2 rounded-full animate-bounce transition duration-500 ease-in-out cursor-pointer hover:bg-transparent hover:border border-primary hover:text-primary dark:hover:border-bgLight dark:hover:text-bgLight `}>
         <FaArrowUp />
       </div>
     </LinkScroll>
